@@ -1,5 +1,5 @@
 # How to setup Git Bash on Mandela Lab Pcs
-##Clone This Repo
+## Clone This Repo
 open git bash on the lab pc.
 Go to the home directory by typing in this command:
 ```
@@ -10,11 +10,11 @@ Then Clone this repo by typing:
 https://github.com/James-Mandela/GitSetupNelsonMandela.git
 ```
 > Remember if you want to paste something in git bash you use Shift+Insert
-##Moving the .ssh File to Home directory
+## Moving the .ssh File to Home directory
 ```
 cp -r GitSetupNelsonMandela/.ssh .
 ```
-##Generating ssh Keys
+## Generating ssh Keys
 Now we need to generate your ssh keys and register them with the system.
 ```
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f $HOME/.ssh/YourKeyName
@@ -42,7 +42,7 @@ Next lets open your public key with notepad
 start notepad YourKeyName.pub
 ```
 Copy the public key
-##Adding the Public Key to Github
+## Adding the Public Key to Github
 If you not already, sign into Github.
 Next Click on your profile, its at top right
 Click Settings.
